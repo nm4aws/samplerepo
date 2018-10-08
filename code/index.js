@@ -6,7 +6,7 @@ const app = express();
 //Get content from DB : promise version
 //print table content when requested
 app.get('/', (req, res) => {
-    res.status(200).send('Hello World!!!!');
+    res.status(200).send('Hello World');
 });
 
 // listen for requests
